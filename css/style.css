@@ -1,28 +1,22 @@
-img{
-max-width: 100%;
+img {
+  max-width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-.ms_header{
-    background-color: aqua;
+.ms_header {
+  background-color: aqua;
 }
 
-.jumbo{
-    background-color: green;
-    width: 100%;
-    height: 300px;
-
+.jumbo {
+  background-color: green;
+  width: 100%;
+  height: 300px;
 }
 
-.ms_container{
-    max-width: 600px;
-    margin: 0 auto;
+.ms_container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.about{
+  background-color: aquamarine;  
+  color: white;
 }
