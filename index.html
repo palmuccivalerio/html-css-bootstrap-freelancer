@@ -14,13 +14,66 @@
   </head>
   <body>
     <header class="ms_header">
-      <div class="container-fluid">
-        <div
-          class="d-flex justify-content-end justify-content-md-between py-3"
-        ></div>
-      </div>
+      <nav class="navbar navbar-expand-md ">
+        <!-- Container -->
+        <div class="container">
+          <!-- brand -->
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+          <!-- /brand -->
+
+          <!-- Hamburger button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            Menu
+          </button>
+          <!-- /Hamburger button -->
+
+          <!-- Navigation menu -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Menu che viene spostato a destra o a sinistra tramite ms-auto / me-auto -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+             
+          </div>
+          <!-- /Navigation menu -->
+        </div>
+        <!-- /Container -->
+      </nav>
     </header>
-    <section class="jumbo"></section>
+    <!-- inizio jumbo -->
+    <section class="jumbo">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-auto text-center">
+            <div class="ms_containerjumbo">
+              <img src="./img/avatar.svg" alt="">
+              <h4 class="d-inline-block">START BOOTSTRAP</h4>
+              <h6>Grafic Artist-Web Desinger-Illustrator</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fine jumbo -->
+    <!-- inizio portfoil griglia immagine -->
     <section class="portfolio">
       <div class="ms_container">
         <div class="container">
@@ -47,6 +100,8 @@
         </div>
       </div>
     </section>
+    <!-- fine portfoil griglia immagine -->
+
     <section class="about py-3">
       <div class="ms_container py-3">
         <div class="container">
@@ -74,19 +129,61 @@
     <section class="inputform">
       <div class="ms_container">
         <div class="container py-3">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            ipsum consequatur quod neque dolores at eligendi saepe et corrupti.
-            Aspernatur voluptatum sint eius qui quibusdam nam blanditiis aliquid
-            minima reprehenderit! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Tenetur ullam sit in enim repudiandae maiores
-            aperiam perferendis. Necessitatibus, ea vel. Debitis vitae quaerat
-            libero nihil unde odio cupiditate necessitatibus quisquam? Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            doloribus praesentium consequatur perferendis perspiciatis eveniet
-            voluptatibus quo, nobis ab labore dicta nulla nihil sed, corporis
-            officia, voluptate ipsa enim necessitatibus!
-          </p>
+          <form action="" class="row">
+            <!-- Input -->
+            <div class="col-12 ">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control "
+                  id="email"
+                  placeholder="name@example.com"
+                />
+              </div>
+            </div>
+  
+            <div class="col-12 ">
+              <div class="mb-3">
+                <label for="name" class="form-label">indirizzo mail</label>
+                <input
+                  type="text"
+                  class="form-control "
+                  id="name"
+                  placeholder="valerio"
+                />
+              </div>
+            </div>
+
+            <div class="col-12 ">
+              <div class="mb-3">
+                <label for="number" class="form-label">Numero Di Telefono</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="numero"
+                  placeholder="+39 ecc ecc"
+                />
+              </div>
+            </div>
+  
+            <div class="col-12">
+              <!-- Textarea -->
+              <div class="mb-3">
+                <label for="message" class="form-label">Messaggio</label>
+                <textarea
+                  class="form-control ms_form-control"
+                  id="message"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+  
+            <!-- Select -->
+          
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </section>
@@ -108,6 +205,11 @@
         </div>
     </div>
     </section>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
   </body>
   <footer class="color-footer">
 
